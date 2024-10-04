@@ -31,4 +31,4 @@ spec:
     - protocol: TCP
       port: 80  # You can use port 80 here for HTTP traffic
       targetPort: 3000  # This should match the port your Node.js application is running on (3000)
-  type: NodePort
+  type: LoadBalancer
